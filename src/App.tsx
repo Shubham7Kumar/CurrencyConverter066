@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import type {PropsWithChildren} from 'react';
 import {
   FlatList,
   Pressable,
@@ -9,12 +8,10 @@ import {
   StyleSheet,
   Text,
   TextInput,
-  useColorScheme,
   View,
 } from 'react-native';
 
 // Constants 
-
 import { currencyByRupee } from './constants';
 
 // Components
