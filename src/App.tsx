@@ -54,7 +54,7 @@ function App(): React.JSX.Element {
   }
 
   return (
-    <SafeAreaView>
+    <>
       <StatusBar/>
        <View style ={styles.container}>
         <View style={styles.topContainer}>
@@ -94,7 +94,7 @@ function App(): React.JSX.Element {
           />
         </View>
        </View>
-    </SafeAreaView>
+    </>
   );
 }
 
