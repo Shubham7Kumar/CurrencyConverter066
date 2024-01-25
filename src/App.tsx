@@ -77,7 +77,7 @@ function App(): React.JSX.Element {
         </View>
         <View style ={styles.bottomContainer}>
         <FlatList
-          numColumns={3}
+          // numColumns={3}
           data={currencyByRupee}
           keyExtractor={item => item.name}
           renderItem={({item}) => (
