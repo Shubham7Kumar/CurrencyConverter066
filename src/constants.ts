@@ -53,5 +53,11 @@ export const currencyByRupee: Currency[] = [
       flag: '🎰',
       symbol: '₿',
     },
+    {
+    name: 'THAILAND',
+      value: 0.43,
+      flag: '🎰',
+      symbol: '฿',
+    },
   ];
   
